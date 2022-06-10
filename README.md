@@ -30,7 +30,7 @@ Parameters can be provided either as Environment variables or as command line ar
 
 The command line help
 
-    usage: ../src/upgrobot.sh parameters [-h]
+    usage: upgrobot.sh parameters [-h]
     
     Runs an update script in a target repository and creates a PR
     The parameters can be passed as environment variables also. See the variable names below.

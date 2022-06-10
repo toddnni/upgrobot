@@ -5,7 +5,7 @@ set -u
 
 cd "$(dirname $0)"
 
-help_text="$(UPGROBOT_CLONE_DIR=/tmp/clonepath PATH="../src:$PATH" upgrobot.sh -h | sed -e 's|/home/.*/src|/bin/path|')"
+help_text="$(UPGROBOT_CLONE_DIR=/tmp/clonepath ../src/upgrobot.sh -h | sed -e 's|../src/upgrobot.sh|upgrobot.sh|' -e 's|/home/.*/src|/bin/path|')"
 
 cd ..
 echo "$help_text" | python -c 'import sys
