@@ -1,0 +1,9 @@
+Runtime
+
+- git
+- curl
+- python3
+
+Additionally, for Development
+
+- podman
